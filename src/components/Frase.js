@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import homero from "../components/img/Homer_Simpson.webp";
+import homero from "../img/Homer_Simpson.webp";
 import "../components/frase.css";
 const Frase = () => {
   return (
@@ -8,7 +8,7 @@ const Frase = () => {
       <article className="bg-fondo rounded">
         <div className="row py-3 ">
           <div className="col-12 col-md-4 text-center">
-            <Card.Img className="width" src={homero} />
+            <Card.Img className="w-100" src={homero} />
           </div>
           <div className="col-12 col-md-8 ">
             <article className="container">
